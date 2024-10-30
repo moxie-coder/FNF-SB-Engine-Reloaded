@@ -132,8 +132,8 @@
 	  	<config:android gradle-plugin="7.3.1" />
 		<android target-sdk-version="35" min-sdk-version="35" />
 
-		<config:android android.useAndroidX="true" />
-		<config:android android.enableJetifier="true" />
+		<config:android useAndroidX="true" />
+		<config:android enableJetifier="true" />
 	</section>
 
 	<!-- Disable Discord IO Thread -->
