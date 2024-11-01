@@ -55,7 +55,7 @@
 	<set name="BUILD_DIR" value="export/debug" if="debug" />
 	<set name="BUILD_DIR" value="export/release" unless="debug" />
 	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
-        <set name="BUILD_DIR" value="export/rpi" if="rpi" />
+	<set name="BUILD_DIR" value="export/rpi" if="rpi" />
 
 	<classpath name="source" />
 
@@ -131,9 +131,6 @@
 		<config:android gradle-version="7.5.1" />
 	  	<config:android gradle-plugin="7.3.1" />
 		<android target-sdk-version="35" min-sdk-version="35" />
-
-		<config:android useAndroidX="true" />
-		<config:android enableJetifier="true" />
 	</section>
 
 	<!-- Disable Discord IO Thread -->
